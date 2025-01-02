@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="icon" type="image/x-icon" href="img/icon2.webp">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <div class="calc-body">
+        <h2 class="title">Calculadora</h2>
+
+        <div class="calc-input">
+            <div class="input-number">
+                <input type="number" id="n1">
+            </div>
+            <div class="input-select">
+                <select name="op" id="op">
+                    <option value="+">+</option>
+                    <option value="-">-</option>
+                    <option value="*">*</option>
+                    <option value="/">/</option>
+                    <option value="**">^</option>
+                </select>
+            </div>
+            <div class="input-number">
+                <input type="number" id="n2">
+            </div>
+            <div class="resultado" id="res"></div>
+        </div>
+        <div class="btn"><input type="button" value="Calcular" id="btn"  onclick="calcular()"></div>
+    </div>
+
+    <script src="js/script.js"></script>
+</body>
+
+</html>
